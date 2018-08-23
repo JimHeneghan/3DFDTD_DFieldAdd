@@ -9,8 +9,8 @@ void gridInit(Grid *g, double Kx, double Ky, double Kz) {
   double XCenter1, XCenter2, YCenter1, YCenter2, r2, XLocC, YLocC, rad, XLoc1, XLoc2, YLoc1, YLoc2, dist1, dist2;
   double epsr;
   Type = threeDGrid;   /*@ \label{grid3dhomoA} @*/
-  SizeX = 866; // size of domain
-  SizeY = 500;
+  SizeX = 86; // size of domain
+  SizeY = 50;
   SizeZ = 3;
   Cdtds = 1.0/2; // Courant number /*@ \label{grid3dhomoB} @*/
   dx = 0.01;
@@ -41,11 +41,11 @@ void gridInit(Grid *g, double Kx, double Ky, double Kz) {
 
   ALLOC_3D(g->epsR, SizeX, SizeY, SizeZ,  double);
   
-  rad = 120; 
-  XCenter1 = 220;
-  YCenter1 = 125;
-  XCenter2 = 653;
-  YCenter2 = 375;
+  rad = 12; 
+  XCenter1 = 22;
+  YCenter1 = 13;
+  XCenter2 = 65;
+  YCenter2 = 38;
   pp = 1;
   r2 = rad*rad;
   /* for (mm = 0; mm < SizeX; mm++){ */

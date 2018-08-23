@@ -20,8 +20,8 @@ void ezInc(Grid *g, int time, double LocX, double LocY, double LocZ, double Kx, 
   double arg, dx, je, omega, dt, delta, deltat, arg2;
   double delx, dely, delz;
   double LocX2, LocY2, LocZ2;
-  delx = 433;
-  dely = 250.0;
+  delx = 43;
+  dely = 25.0;
   delz = 0.0;
   double dTime = (double) time; 
   LocX2 = LocX + delx;

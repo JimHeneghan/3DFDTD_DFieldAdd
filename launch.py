@@ -15,13 +15,13 @@ def runsim(k):
     arraytest.runsim(k[0], k[1], k[2], k[3], k[4])
 
 # Create a kvector - actually nonsense
-k = np.array([0.0, 0.0, 0.0, 20000, 0.0])
+k = np.array([0.0, 0.0, 0.0, 10000, 0.0])
 #i = np.array([0])
 #Create an array of complex numbers - the dtype=np.complex64 is important
 
 
 # Test the function
-a =(5)
+a =(0.5)
 print a
 GammaX = 2*math.pi/(a*math.sqrt(3))
 #KxMax = 2*math.pi/(3*a)
